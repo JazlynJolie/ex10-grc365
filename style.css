@@ -1,5 +1,22 @@
 *{
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
+
+html {
+  background-color: #4d0000;
+  font-fanmily: Verdana, sans-serif;
+  font-size: 14px;
+  color: white;
+  line-height: 1.5;
+}
+
+header {
+  width: 100%;
+  text-align: right;
+  text-transform: uppercase;
+  position: fixed;
+  padding: 10px;
+  letter-spacing: 1.5px;
+  z-index: 10;
+}
+
