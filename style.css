@@ -12,13 +12,15 @@ html {
 
 header {
   width: 100%;
+  margin-top: -40px;
+  padding: 10px;
   text-align: right;
   text-transform: uppercase;
   position: fixed;
-  padding: 10px;
   letter-spacing: 1.5px;
   z-index: 10;
-  background-color: #7a7a52;
+  background-color: #869d58
+;
 }
 
 .title {
@@ -33,14 +35,48 @@ main {
 }
 
 h1 {
-  margin: 10px 30px;
+  margin-bottom: 30px;
   font-weight: 700;
   font-size: 50px;
   text-transform: uppercase;
   letter-spacing: 1.5px;
 }
 
-img {
+.Carolers {
   border-radius: 30px;
   width: 100%
+}
+
+.bells {
+  position: sticky;
+  top: 40rem;
+  width: 300px;
+  float: right;
+}
+
+.story {
+  margin-top: 30px;
+  text-align: justify;
+  padding: 10px 10px;
+}
+
+em {
+  color:  #d77979;
+}
+
+strong {
+  color: #d4eea0;
+}
+
+a:link {
+  color: #414e27;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #414e27;
+}
+
+a:hover {
+  color: #d4eea0;
 }
