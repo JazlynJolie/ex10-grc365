@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -23,12 +23,24 @@ header {
 
 .title {
   font-weight: 700;
-  text-align: left;
+  float: left;
 }
 
 main {
   position: relative;
-  top: 20px:
-  max-width: 40px;
   margin: 10px 10px 10px 10px;
+  max-width: 500px;
+}
+
+h1 {
+  margin: 10px 30px;
+  font-weight: 700;
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+img {
+  border-radius: 30px;
+  width: 100%
 }
