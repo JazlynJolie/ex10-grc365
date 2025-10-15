@@ -69,14 +69,14 @@ strong {
 }
 
 a:link {
-  color: #414e27;
+  color: #d4eea0;
   text-decoration: none;
 }
 
 a:visited {
-  color: #414e27;
+  color: #d4eea0;
 }
 
 a:hover {
-  color: #d4eea0;
+  color: #d77979;
 }
